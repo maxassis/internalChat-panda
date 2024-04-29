@@ -97,10 +97,7 @@ export const wrapperTabs = css({
   overflow: 'auto',
   gap: '10px',
   alignItems: 'center',
-
-  '&::-webkit-scrollbar': {
-    display: 'none'
-  }
+  overflowX: 'hidden'
 })
 
 export const chatsWrapper = css({
